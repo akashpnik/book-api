@@ -41,7 +41,8 @@ The server will be running on `http://localhost:3000`.
 The following endpoints are available to manage the book collection.
 
 ### Get All Books
-Returns a list of all books in the collection.
+Returns a list of all books in the collection. 
+You can use POSTMAN
 * **Method:** `GET`
 * [cite_start]**URL:** `/books`
 * **Success Response:** `200 OK` with an array of book objects.
@@ -49,7 +50,7 @@ Returns a list of all books in the collection.
 ### Get a Single Book by ID
 Returns a single book that matches the provided ID.
 * **Method:** `GET`
-* [cite_start]**URL:** `/books/:id` 
+* **URL:** `/books/:id` 
 * **Success Response:** `200 OK` with the book object.
 * **Error Response:** `404 Not Found` if the book does not exist.
 
@@ -60,7 +61,7 @@ Adds a new book to the collection.
 * **Body (JSON):** Requires a `title` and `author`.
     ```json
     {
-        "title": "Malguddi Days",
+        "title": "Malgudi Days",
         "author": "R.K Narayan"
     }
     ```
