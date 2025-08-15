@@ -44,7 +44,7 @@ The following endpoints are available to manage the book collection.
 Returns a list of all books in the collection. 
 You can use POSTMAN
 * **Method:** `GET`
-* [cite_start]**URL:** `/books`
+* **URL:** `/books`
 * **Success Response:** `200 OK` with an array of book objects.
 
 ### Get a Single Book by ID
